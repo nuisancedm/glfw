@@ -77,7 +77,7 @@ project "GLFW"
 
 	filter "system:windows"
 		systemversion "latest"
-
+		staticruntime "On"
 		files
 		{
 			"src/win32_init.c",
